@@ -1,5 +1,16 @@
 import React, { useState, useEffect } from 'react';
 import { motion } from 'framer-motion';
+import {
+  BarChart3,
+  MessageSquare,
+  Star,
+  AlertTriangle,
+  Search,
+  Users,
+  TrendingUp,
+  Award
+} from 'lucide-react';
+
 const DataDetectiveGame = () => {
 
   const [score, setScore] = useState(0);
